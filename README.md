@@ -1,13 +1,13 @@
 # Cycling_Data
 ## Capstone Project: Cyclistic Usage Data over 12 Months
-### Discription 
+### Description 
 Through Coursera, I've been pursuing the Google Data Analytics Professional Certificate. This is the course's final capstone assignment for me. I will be examining a public dataset for a made-up corporation in this case study, which is being provided by the course. I'll be analyzing data with the R programming language and creating visualizations with Tableau. The dataset included information about rides such as start and end timings, ride lengths, user types (members or casual users), and the day of the week from various months in 2022 and 2023. Data cleaning, data combining, calculating journey lengths, and examining ride trends for various user groups were the project's main goals.
 ### The Objective
-By turning casual users into yearly members, Cyclistic, a bike-share company with 5,824 bicycles and 692 stations in Chicago, hopes to boost profitability. The team wants to comprehend how annual members and casual riders use the service differently, why casual riders might buy annual memberships, and how digital media affects marketing strategies. This analysis aims to offer insightful guidance for the upcoming marketing program. The company wants to know how casual and annual memebers use the serivce differently, what can help make more casual riders into annual members, and what sorts of digital media would have an impact if any. 
+By turning casual users into yearly members, Cyclistic, a bike-share company with 5,824 bicycles and 692 stations in Chicago, hopes to boost profitability. The team wants to comprehend how annual members and casual riders use the service differently, why casual riders might buy annual memberships, and how digital media affects marketing strategies. This analysis aims to offer insightful guidance for the upcoming marketing program. The company wants to know how casual and annual members use the service differently, what can help make more casual riders into annual members, and what sorts of digital media would have an impact, if any.
 ### The Tools Used
-Originally I was going to use spreadsheets (Excel, GoogleSheets, Libra Calc, etc.) to clean and do preliminary analysis. Since each month would have been a seperate sheet, then at least another combined sheet for cleaning and transforming, and sheer amount of data in each month, would have created 13 page spreadsheet that takes literal minutes to load. The clearly was not practical so I switched to using RStudio to clean and perform analysis. Then I exported the data set to Tableau Public for visualizations. 
-### The Process: Loading, Cleaning, Transforming
-First we need to load all the relevent packages, this means making sure that both RStudio and RTools are active and up to date. From there the packages are:
+Originally, I was going to use spreadsheets (Excel, Google Sheets, Libra Calc, etc.) to clean and do preliminary analysis. Since each month would have been a separate sheet, there would have been at least another combined sheet for cleaning and transforming, and the sheer amount of data in each month would have created a 13-page spreadsheet that takes literally minutes to load. It was clearly not practical, so I switched to using RStudio to clean and perform analysis. Then I exported the data set to Tableau Public for visualizations.
+The Process: Loading, Cleaning, and Transforming
+First, we need to load all the relevant packages; this means making sure that both RStudio and RTools are active and up-to-date. From there, the packages are:
 ```
 	install.packages("tidyverse")
 	install.packages("lubridate")
