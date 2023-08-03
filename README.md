@@ -70,3 +70,16 @@ Finally the data is ready to out put to Tableau for visualization and manipulati
 ```
 	write.csv(biketotal, file = "cycle_data_tableau.csv", row.names = FALSE)
 ```
+### Visualizations and Dashboard
+Using Tableau these are the individual visualizations that I created for this case study.
+![Piechart](https://github.com/JZac42/Cycling_Data/assets/140922648/6b650269-ac12-4709-a12b-ab1889242482)
+![Linegraph](https://github.com/JZac42/Cycling_Data/assets/140922648/e6e60bf6-c95f-4228-b023-4615abfdd079)
+![BarChart](https://github.com/JZac42/Cycling_Data/assets/140922648/fa2dc307-7484-427d-acb5-d8aaa9f06545)
+![Circleplot](https://github.com/JZac42/Cycling_Data/assets/140922648/54646ef5-8d95-4ac8-ab1d-5a724e4a260b)
+I then combined these to create a Dashboard that allows for seeing all the information at once in a convient and easy to understand way.
+![Dashboard](https://github.com/JZac42/Cycling_Data/assets/140922648/40e60ff7-031f-483c-b14f-a532962aa6b5)
+### The Conclusion and Recommendations
+It is very clear that while annual members use the bike share more often per month that causal users ride for much longer periods of time when they do use it. To have the greatest imapact on converting casual to members you would want to target any events or discount campaigns at this time. Especially on Sundays, which is when casual user use spikes the most. I would recommend gamifying the usage, create a leadership board based on usage, or offer points and small prizes to those that reach milestones. If you make a template that is shareable on social medias for this it will further encourage usage. This along with targeted discounts on specific days and months, will drive both casual and member usage up. In short:
+* Targets Seasonal and Weekend Discounts and promotional campaigns
+* Gamification, Leadership Boards, points for use, accessories as prizes, etc. will drive both casual and member use
+* Social media posting, allow milestones of usage to be shared and posted to create buzz
