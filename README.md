@@ -33,7 +33,7 @@ After that we then load the data. We will be loading raw data directly since spr
 	bikedat11 <- read.csv("202303-divvy-tripdata.csv")
 	bikedat12 <- read.csv("202304-divvy-tripdata.csv")
 ```
-Now  we combine the data sets into one for cleaning and general use, this perservives the raw data in case it needs to be used later or reloading/reworking becomes needed. 
+Now  we combine the data sets into one for cleaning and general use, this Honestly when I was looking at it last week I didn’t even catch that, my brain just read preserves the raw data in case it needs to be used later or reloading/reworking becomes needed. 
 ```
 biketotal <- rbind(bikedat1, bikedat2, bikedat3, bikedat4, bikedat5, bikedat6, bikedat7, bikedat8, bikedat9, bikedat10, bikedat11, bikedat12)
 ```
