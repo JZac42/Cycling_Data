@@ -37,7 +37,7 @@ Now  we combine the data sets into one for cleaning and general use, this Honest
 ```
 biketotal <- rbind(bikedat1, bikedat2, bikedat3, bikedat4, bikedat5, bikedat6, bikedat7, bikedat8, bikedat9, bikedat10, bikedat11, bikedat12)
 ```
-The data is ready to be cleaned, first part of cleaning is to remove irrelevent data, or null spaces.
+The data is ready to be cleaned, first part of cleaning is to remove irrelevant data, or null spaces.
 ```
   biketotal <- janitor::remove_empty(dat = biketotal,which = c("cols"))
 	biketotal <- janitor::remove_empty(dat = biketotal,which = c("rows"))
@@ -45,7 +45,7 @@ The data is ready to be cleaned, first part of cleaning is to remove irrelevent 
   biketotal <- biketotal %>%  
   	select(-c(start_lat, start_lng, end_lat, end_lng, start_station_name, start_station_id, end_station_name, end_station_id))
 ```
-Next is to standardize the formating, such as dates, times, starts and finishes, etc. Converting start and end at to proper date format and adding sperate columns for each to allow better analysis.
+Next is to standardize the formatting, such as dates, times, starts and finishes, etc. Converting start and end at to proper date format and adding separate columns for each to allow better analysis.
 ```
 	biketotal$started_at <- lubridate::as_datetime(biketotal$started_at)
 	biketotal$ended_at <- lubridate::as_datetime(biketotal$ended_at)
